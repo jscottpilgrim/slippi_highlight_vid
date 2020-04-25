@@ -1,0 +1,6 @@
+ffmpeg -f concat -safe 0 -i mylist.txt -c copy output.wav
+
+-safe 0 not needed for relative paths
+# for comment lines
+
+ffmpeg -f concat -i shuffled_list.txt -c copy concat_combos.mp4

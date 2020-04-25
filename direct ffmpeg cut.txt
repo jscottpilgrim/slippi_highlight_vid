@@ -1,0 +1,1 @@
+ffmpeg -i {input_file}.mp4 -ss 00:xx:xx -to 00:xx:xx -c:v copy -c:a copy -an {output_title}.mp4
